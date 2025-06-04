@@ -31,16 +31,16 @@
 <body class="sora">
 
 
-     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ... mb-20" >
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ... mb-20 mt-10">
 
-          <div class="max-w-screen-lg mx-auto">
-              <!-- nav bar -->
+        <div class="max-w-screen-lg mx-auto">
+            <!-- nav bar -->
             <nav class=" p-4  flex justify-between items-center">
                 <!-- Logo -->
                 <div>
                     <img src="assets/logo-green.png" alt="Logo" class="w-32">
                 </div>
-    
+
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center gap-6">
                     <ul class="flex gap-6">
@@ -48,16 +48,16 @@
                         <li class="hover:text-green-600 cursor-pointer">Services</li>
                         <li class="hover:text-green-600 cursor-pointer">Contact us</li>
                     </ul>
-    
+
                     <i class="fa-solid fa-magnifying-glass text-gray-700 hover:text-green-600 cursor-pointer"></i>
                     <i class="fas fa-shopping-cart text-xl text-gray-700 hover:text-green-600 cursor-pointer"></i>
-    
+
                     <button
-                        class="border-2 border-green-500 py-2 px-4 rounded-lg hover:bg-yellow-300 hover:text-red-500">Login</button>
+                        class="border-2 border-green-500 py-2 px-4 rounded-lg  focus:bg-red-300 focus:text-blue-500 md:focus:hidden md:hover:bg-yellow-300 md:hover:text-red-500  ">Login</button>
                     <button
                         class="bg-[#00a100] text-white py-2 px-4 rounded-lg hover:bg-yellow-300 hover:text-red-500">Register</button>
                 </div>
-    
+
                 <!-- Hamburger Icon (visible on small devices) -->
                 <div class="md:hidden">
                     <button onclick="toggleMenu()">
@@ -68,7 +68,7 @@
                     </button>
                 </div>
             </nav>
-    
+
             <!-- Mobile Menu (hidden by default) -->
             <div id="mobile-menu" class="md:hidden hidden p-4 bg-white shadow-md space-y-4">
                 <ul class="space-y-2">
@@ -76,12 +76,12 @@
                     <li class="hover:text-green-600 cursor-pointer">Services</li>
                     <li class="hover:text-green-600 cursor-pointer">Contact us</li>
                 </ul>
-    
+
                 <div class="flex gap-4 items-center mt-4">
                     <i class="fa-solid fa-magnifying-glass text-gray-700 hover:text-green-600 cursor-pointer"></i>
                     <i class="fas fa-shopping-cart text-xl text-gray-700 hover:text-green-600 cursor-pointer"></i>
                 </div>
-    
+
                 <div class="mt-4 flex gap-4">
                     <button
                         class="border-2 border-green-500 py-2 px-4 rounded-lg hover:bg-yellow-300 hover:text-red-500">Login</button>
@@ -94,19 +94,21 @@
             <!-- header section -->
             <section class="mt-10">
                 <div class="   mx-4">
-                    <p class=" text-center text-3xl md:text-4xl mx-3 font-bold mb-5 ">Freshness <span class=" text-[#00a100]">You Can <br> Count</span> On, Prices You’ll Love!</p>
-                <p class="md:max-w-screen-lg md:mx-auto text-center mx-3   md:w-170  ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                    <p class=" text-center text-3xl md:text-4xl mx-3 font-bold mb-5 ">Freshness <span
+                            class=" text-[#00a100]">You Can <br> Count</span> On, Prices You’ll Love!</p>
+                    <p class="md:max-w-screen-lg md:mx-auto text-center mx-3   md:w-170  ">Shop your daily essentials at
+                        unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
                 </div>
                 <br>
-               <img class="w-80 md:w-2/3 max-w-screen-lg mx-auto h-auto" src="assets/hero-img.png" alt="">
+                <img class="w-80 md:w-2/3 max-w-screen-lg mx-auto h-auto" src="assets/hero-img.png" alt="">
 
 
             </section>
-          </div>
-        </header>
+        </div>
+    </header>
 
     <main class="  max-w-screen-lg mx-auto ">
-       
+
 
 
 
@@ -168,7 +170,7 @@
 
             <div class="md:grid md:grid-cols-4 md:gap-y-2 md:gap-x-8  py-10">
                 <!-- grid 1 -->
-                <div class=" m-3  px-3 md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5  px-3 md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-onion.png" alt="">
@@ -186,7 +188,7 @@
 
                     </div>
                 </div>
-                <div class=" m-3 px-3 md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-tomato.png" alt="">
@@ -204,7 +206,7 @@
 
                     </div>
                 </div>
-                <div class=" m-3 px-3 m- md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 m- md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -222,7 +224,7 @@
 
                     </div>
                 </div>
-                <div class=" m-3 px-3 m- md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 m- md:m-0 py-3 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-tomato.png" alt="">
@@ -241,7 +243,7 @@
                     </div>
                 </div>
                 <!-- grid 2 -->
-                <div class=" m-3 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-onion.png" alt="">
@@ -259,7 +261,7 @@
 
                     </div>
                 </div>
-                <div class="m-3 px-3 m- py-3  md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class="m-5 px-3 m- py-3  md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-tomato.png" alt="">
@@ -277,7 +279,7 @@
 
                     </div>
                 </div>
-                <div class="m-3 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class="m-5 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-onion.png" alt="">
@@ -295,7 +297,7 @@
 
                     </div>
                 </div>
-                <div class="m-3 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
+                <div class="m-5 px-3 m- py-3 md:m-0 pr- items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -314,7 +316,7 @@
                     </div>
                 </div>
                 <!-- grid 3 -->
-                <div class="m-3  px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
+                <div class="m-5  px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -332,7 +334,7 @@
 
                     </div>
                 </div>
-                <div class=" m-3 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -350,7 +352,7 @@
 
                     </div>
                 </div>
-                <div class="m-3 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
+                <div class="m-5 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -368,7 +370,7 @@
 
                     </div>
                 </div>
-                <div class=" m-3 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
+                <div class=" m-5 px-3 m- py-3 pr- md:m-0 items-center  flex gap-4 rounded-lg bg-white">
 
                     <div>
                         <img class="  w-20 rounded-xl bg-[#e3e0da] " src="assets/product-potato.png" alt="">
@@ -396,13 +398,51 @@
     </section>
 
 
+    <!-- Arrival & Offers -->
+    <section class=" max-w-screen-lg mx-auto mt-20 ">
+        <p class="text-[#00a100] m-3 md:m-0 font-medium text-2xl mt-20 ">Arrival & Offers</p>
+        <div class="md:grid md:grid-cols-[1fr_0.6fr] md:gap-5 mx-5 mt-10 md:mx-0">
+            <!-- img 1 -->
+            <div class="bg-[#044204] h-full flex justify-between rounded-xl items-center px-6 pt-10 pb-2 mb-5">
+                <div class=" text-white ">
+                    <img class=" w-5/4 " src="assets/dawat-logo.png" alt="">
+                    <p class=" bg-[#1c8f1c] p-2 rounded-lg mb-7 mt-15 ">Cook Exotic Dishes</p>
+                    <p>UP to <span class=" font-bold ">20% OFF</span></p>
+
+                </div>
+                <div>
+                    <img src="assets/product-dawat.png" alt="">
+                </div>
+
+            </div>
+            <!-- img 2 -->
+            <div class="bg-[#1c1c66] h-full flex justify-between rounded-xl items-center px-6 pt-10 pb-2">
+                <div class=" text-white ">
+                    <img class=" w-3/4" src="assets/indiagate-logo.png" alt="">
+                    <p class=" bg-[#1c8f1c] p-2 rounded-lg mb-7 mt-15 ">World’s No.1 Rice</p>
+                    <p>UP to <span class=" font-bold ">40% OFF</span></p>
+
+                </div>
+                <div>
+                    <img class=" md:w-5/4 md:ml-4 " src="assets/product-indiagate.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
-    <footer class="bg-[#00a100] mt-100 pt-40">
-        <section class="max-w-screen-lg mx-auto pl-5 md:pl-0 md:pt-10 pt-60 pb-20 relative">
+
+
+
+
+
+    <footer class="bg-[#00a100] mt-130 md:mt-100 pt-0 md:pt-60 pt-50">
+        <section class="max-w-screen-lg mx-auto pl-5 md:pl-0 md:pt-1 pt-60 pb-20 relative">
             <!-- Bonus Newsletter Section -->
-            <div
-                class="bg-[#e3e0da] max-w-[800px]  md:ml-0 ml-0  mr-5 md:mx-auto  mx-3 rounded-2xl p-4 md:flex md:justify-between absolute md:-top-75 md:left-20 -top-120 ">
+          
+                <div
+                class="bg-[#e3e0da] md:w-[1220px] mr-5   md:max-w-screen-lg md:mx-auto rounded-2xl p-6 md:flex md:justify-between md:items-center absolute md:-top-95 -top-130  ">
                 <!-- Image -->
                 <div>
                     <img class="md:w-80 md:mr-6" src="assets/fruit-basket.png" alt="">
@@ -413,6 +453,7 @@
                     <p>Exclusive training tips, tricks, product deals and more.</p>
                     <form action="">
                         <input class="bg-white my-4 w-80 rounded-lg p-2" type="email" placeholder="Enter email....">
+                        <br>
                         <input type="submit" value="Subscribe"
                             class="bg-[#00a100] text-white py-3 px-4 rounded-lg hover:bg-yellow-300 hover:text-red-500 ">
 
@@ -420,9 +461,10 @@
 
                 </div>
             </div>
+           
 
             <!-- Main Footer Content -->
-            <div class="md:flex md:justify-between mt-10">
+            <div class="md:flex  md:justify-between mt-0">
                 <!-- Logo + Text -->
                 <div>
                     <img src="assets/logo-white.png" alt="">
@@ -463,6 +505,18 @@
             </div>
         </section>
     </footer>
+
+
+
+
+    <!--  hs -->
+      
+
+
+
+ 
+
+ 
 
 
 
